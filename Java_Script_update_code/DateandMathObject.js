@@ -19,13 +19,15 @@ function getRandomInt(min, max) {
   }
 //call function 
   getRandomInt(3,10);
+  console.log('***********************');
 
   function getRandomIntInclusive(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min; //The maximum is inclusive and the minimum is inclusive 
   }
-
+  
+  console.log('***********************');
   //call function 
   getRandomIntInclusive(3,10);
 
@@ -37,6 +39,7 @@ console.log ("----------------------");
   //call function -- it will generate random values 
  console.log( getRandom());
  //output --0.89
+ console.log ("----------------------");
 
  //write function for getting random numbers between any two numbers 
  function getRandomArbitrary(min, max) {
@@ -54,26 +57,26 @@ console.log (now);
 
 const date1 = new Date ( 'June 20 2020 08:20') ;
 console.log (date1) ;
-
 console.log ("----------------------");
+
 //to get the day 
 console.log(now.getDate());
 console.log ("----------------------");
 //to get the time 
 console.log(now.getTime());
-
+console.log ("----------------------");
 //to get the year 
 console.log(now.getFullYear());
-
+console.log ("----------------------");
 //to get the month 
 console.log(now.getDay());
-
+console.log ("----------------------");
 //to print the exact date 
 console.log(now.toDateString());
 //output - Sun Feb 16 2020
-
+console.log ("----------------------");
 //to print the exact time 
 console.log(now.toTimeString());
 //output - 01:05:09 GMT+1100 (Australian Eastern Daylight Time)
-
+console.log ("----------------------");
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date

@@ -4,6 +4,8 @@
 const os_module = require("os")
 const asser_module = require("assert");
 const { assert } = require("console");
+
+
 //get the platform 
 console.log(os_module.platform());
 console.log(os_module.homedir());

@@ -12,6 +12,7 @@ x = 20 ;
 
 console.log ("value of x is :" + x);
 console.log ("value of y is :" + y);
+console.log('********************************');
 
 let p = {value : 10 };
 q= p ;
@@ -21,4 +22,4 @@ console.log (q.value);
 //objects are copied by there references and not by values 
 //values are copied by there values and not references 
 //reference will not get copied but value will get copied 
-
+console.log('********************************');

@@ -22,5 +22,13 @@ const circle =  {
 }
 //to fetch the object values 
 console.log (circle.radius);
+console.log('************************************');
 //to fetch all object values
 console.log(circle);
+console.log('************************************');
+//to call the function in another way 
+circle.draw();
+console.log('************************************');
+//to access the nested object values 
+console.log(circle['location']['x']);
+console.log('************************************');
